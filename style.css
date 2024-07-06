@@ -4,8 +4,8 @@ body {
 }
 .flexible-container {
   display: flex;
-  margin-top: 62px;
-  margin-bottom: 100px;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 .hero-width {
   width: 50%;
@@ -54,4 +54,34 @@ body {
 .about-img img {
   display: flex;
   width: 100%;
+}
+.cart h2 {
+  font-size: 36px;
+  color: #4e4c4c;
+  text-align: center;
+}
+.cart p {
+  text-align: center;
+  width: 60%;
+}
+.cart-items {
+  width: 100%;
+  justify-content: space-around;
+}
+.cart-items img {
+  width: 300px;
+  border-radius: 10px;
+}
+.cart-items p {
+  text-align: start;
+  width: 100%;
+}
+.cart-1,
+.cart-2,
+.cart-3 {
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px gray;
+  overflow: hidden;
+  width: 300px;
+  padding: 10px;
 }
