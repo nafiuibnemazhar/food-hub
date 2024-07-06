@@ -36,3 +36,22 @@ body {
   border-radius: 25px;
   box-shadow: 10px 5px 40px rgb(250, 210, 135);
 }
+.hero-cta:hover {
+  color: #dad0d0;
+}
+.about {
+  background-image: url(images/about-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+}
+.about-text h2 {
+  font-size: 36px;
+}
+.about-text p {
+  width: 70%;
+}
+.about-img img {
+  display: flex;
+  width: 100%;
+}
